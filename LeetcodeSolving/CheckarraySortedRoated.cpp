@@ -18,8 +18,6 @@ bool check(int arr[],int n){
         count++;
     }
     return count==1;
-    
-    
 }
 int main()
 {

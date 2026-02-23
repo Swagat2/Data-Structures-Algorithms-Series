@@ -44,7 +44,6 @@ int main()
             cin >> arr[i][j];
         }
     }
-
     cout << "Matrix is: " << endl;
     // for (int i = 0; i < 3; i++) {
     //     for (int j = 0; j < 3; j++) {

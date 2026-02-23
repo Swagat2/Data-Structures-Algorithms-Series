@@ -12,7 +12,6 @@ void removez(int arr[],int n){
             swap(arr[j],arr[i]);
             i++;
         }
-        
     }
 }
 int main(){
