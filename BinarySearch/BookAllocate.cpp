@@ -56,25 +56,26 @@ int main()
     cout << result;
 }
 
-#include<iostream>
-using namespace std;
-bool ifpossible(int arr[],int ,.int k,int m){
-    int student=1;
-    int count=0;
-    for (int i = 0; i < n; i++)
-    {
-        if (count + arr[i]<=mid )
-        {
-            count=scount+arr[i];
-        }
-        else{
-            student++;
-            if (count>m || arr[i]>mid)
-            {
-                return false;
-            }
-            count=arr[i];
-        }
-    }
-    return true;
-}
+
+// #include<iostream>
+// using namespace std;
+// bool ifpossible(int arr[],int ,.int k,int m){
+//     int student=1;
+//     int count=0;
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (count + arr[i]<=mid )
+//         {
+//             count=scount+arr[i];
+//         }
+//         else{
+//             student++;
+//             if (count>m || arr[i]>mid)
+//             {
+//                 return false;
+//             }
+//             count=arr[i];
+//         }
+//     }
+//     return true;
+// }

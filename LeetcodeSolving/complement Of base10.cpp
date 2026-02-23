@@ -14,6 +14,6 @@ int main(){
         mask=(mask<<1)|1;
         m=m>>1;
     }
-    return (~n)&mask;
-    
+    int ans = (~n) & mask;
+    cout << "Complement is: " << ans;
 }
