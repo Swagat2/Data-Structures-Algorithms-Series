@@ -56,7 +56,6 @@ int main()
     cout << result;
 }
 
-
 // #include<iostream>
 // using namespace std;
 // bool ifpossible(int arr[],int ,.int k,int m){
@@ -69,7 +68,7 @@ int main()
 //             count=scount+arr[i];
 //         }
 //         else{
-//             student++;
+//             student++;   
 //             if (count>m || arr[i]>mid)
 //             {
 //                 return false;

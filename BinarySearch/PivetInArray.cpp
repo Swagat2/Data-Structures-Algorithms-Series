@@ -5,17 +5,17 @@ int pivert(int arr[],int n){
     int e=n-1;
     while (s<e)
     {
-        int mid=s+(e-s)/2;
-        if (arr[mid]>=arr[0])
+        int m=s+(e-s)/2;
+        if (arr[m]>=arr[0])
         {
-            s=mid+1;
-            
+            s=m+1;
         }
         else{
-            e=mid;
-        } 
+            e=m;
+        }
     }
     return s;
+    
 }
 int main(){
     int arr[]={3,8,10,17,1};
