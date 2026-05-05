@@ -51,7 +51,7 @@ int main(){
     }
 }
 #endif
-#if 1
+#if 0
 // 3. Sort and Count Swaps (Important)
 // 📥 Input
 // [3, 2, 1]
@@ -85,5 +85,28 @@ int main(){
     }
     cout<<endl;
     cout<<count<<" ";
+}
+#endif
+//
+// INSERTION SORT
+#if 1
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[]={10,1,7,4,8,2,11};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    for (int i = 1; i < n; i++)
+    {
+        int j=i-1;
+        int key=arr[i];
+        while (j>=0&&arr[j]>key)
+        {
+            arr[j+1]=arr[j];
+            j--;
+        }
+        arr[j+1]=key
+        
+    }
+    
 }
 #endif
